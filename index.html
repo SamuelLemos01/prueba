@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Repositorios</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#tipos">Tipos de repositorios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#diferenciasR">Diferencias de repositorios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#git">Git y GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#diferenciasG">Diferencias de Git y GitHub</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ramas">Ramas de Git</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#comandos">Comandos de Git</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Repositorios</h1>
+                <p class="lead">Bienvenido a una Landing Page sobre Repositorios en Git y GitHub</p>
+            </div>
+        </header>
+        <section id="tipos">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center">Tipos de repositorios</h2>
+                        <p class="lead" style="text-align: justify;">Un repositorio, o repo, es un tipo de almacenamiento digital centralizado que los
+                            desarrolladores utilizan para realizar y administrar cambios en el código fuente de una aplicación. Los
+                            desarrolladores tienen que almacenar y compartir carpetas, archivos de texto y otros tipos de documentos
+                            al desarrollar software. Un repositorio cuenta con características que permiten a los desarrolladores
+                            rastrear con facilidad cambios en el código, editar archivos de manera simultánea y colaborar de forma
+                            eficiente en el mismo proyecto desde cualquier ubicación. Existen dos tipos de repositorio, estos son:
+                        </p>
+                        <div class="cartas">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/GitHub_Invertocat_Logo.svg.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="text-center" style="font-size: 1.5rem;">Repositorio Web</h1>
+                                <p class="card-text" style="text-align: justify;">Son estructuras web que permiten almacenar, organizar, preservar y difundir la producción intelectual de una institución. Los repositorios institucionales se enfocan en la producción académica de una institución, mientras que los repositorios temáticos se enfocan en un campo disciplinar o asunto específico.</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/explorer_folders_18871.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h1 class="text-center" style="font-size: 1.5rem;">Repositorio Local</h1>
+                                <p class="card-text" style="text-align: justify;">Son contenedores de archivos que se encuentran en una máquina local y son utilizados por un usuario individual. En un repositorio local se pueden guardar proyectos con diferentes archivos, hacer modificaciones y crear versiones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="diferenciasR">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center">Diferencias entre Repositorios Web y Local</h2>
+                        <ol>
+                            <li style="text-align: justify;">Accesibilidad: El repositorio web es accesible desde cualquier lugar con internet, mientras el local solo desde tu computadora.</li>
+                            <li style="text-align: justify;">Colaboración: El web permite trabajo en equipo simultáneo, el local es principalmente para trabajo individual.</li>
+                            <li style="text-align: justify;">Respaldo: El web tiene copias de seguridad automáticas en servidores, el local depende de tus propias copias.</li>
+                            <li style="text-align: justify;">Conectividad: El web requiere conexión a internet para funcionar, el local trabaja sin conexión.</li>
+                            <li style="text-align: justify;">Espacio: El web suele tener límites de almacenamiento según el plan, el local solo depende de tu disco duro.</li>
+                            <li style="text-align: justify;">Velocidad: El local es más rápido al no depender de la velocidad de internet.</li>
+                            <li style="text-align: justify;">Control: El local te da control total sobre tu código, el web depende de políticas del servicio.</li>
+                            <li style="text-align: justify;">Costos: El web puede tener costos de suscripción, el local es generalmente gratuito.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="git">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center">Que es Git y GitHub</h2>
+                        <div class="cartas-dos mt-5">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/18133.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Git</h5>
+                                    <p class="card-text" style="text-align: justify;">Git es un sistema de control de versiones (SCV) de código abierto que permite hacer seguimiento de los cambios en el código fuente de un proyecto. Es una herramienta para getionar proyectos y que permite a varios desarrolladores trabajar en conjunto en el desarrollo de software y aplicaciones.</p>
+                                    <a href="https://git-scm.com/" class="btn btn-primary" target="_blank">Sitio Oficial</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/GitHub_Invertocat_Logo.svg.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">GitHub</h5>
+                                    <p class="card-text" style="text-align: justify;">GitHub es una plataforma donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código. Almacenar tu código en un "repositorio" en GitHub te permite: Presentar o compartir el trabajo. Seguir y administrar los cambios en el código a lo largo del tiempo.</p>
+                                    <a href="https://github.com/" class="btn btn-primary" target="_blank">Sitio Oficial</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="diferenciasG">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center">Diferencias entre Git y GitHub</h2>
+                        <ol>
+                            <li style="text-align: justify;">Naturaleza: Git es un sistema de control de versiones, GitHub es una plataforma web que usa Git.</li>
+                            <li style="text-align: justify;">Instalación: Git se instala localmente en tu computadora, GitHub es un servicio web al que accedes por navegador.</li>
+                            <li style="text-align: justify;">Funcionamiento: Git maneja el versionamiento del código, GitHub proporciona almacenamiento y funciones sociales.</li>
+                            <li style="text-align: justify;">Conexión: Git funciona sin internet, GitHub requiere conexión web constante.</li>
+                            <li style="text-align: justify;">Propiedad: Git es software libre creado por Linus Torvalds, GitHub es una empresa propiedad de Microsoft.</li>
+                            <li style="text-align: justify;">Funciones sociales: Git no tiene características sociales, GitHub permite seguir proyectos y desarrolladores.</li>
+                            <li style="text-align: justify;">Interfaz: Git se usa principalmente por línea de comandos, GitHub ofrece interfaz gráfica web.</li>
+                            <li style="text-align: justify;">Colaboración: Git permite colaboración básica, GitHub añade funciones como issues, pull requests y wikis.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="ramas">
+            <h2 class="text-center">Ramas de Git</h2>
+            <p style="text-align: justify;">Una rama en Git es una línea independiente de desarrollo que permite trabajar en diferentes versiones del código simultáneamente sin afectar la rama principal. Es como una copia del código que puedes modificar de forma segura. Tipos de ramas mas comunes en Git:</p>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Main o Master
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Es la rama principal por defecto</li>
+                                <li>Contiene el código estable y productivo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Develop
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Rama de desarrollo principal</li>
+                                <li>Donde se integran las nuevas características antes de pasar a main</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Feature/*
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Ramas temporales para desarrollar nuevas funcionalidades</li>
+                                <li>Ejemplo: feature/login, feature/payment-system</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Hotfix/*
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Para corregir errores urgentes en producción</li>
+                                <li>Se crean desde main y se fusionan tanto en main como en develop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            Release/*
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Para preparar una nueva versión del software</li>
+                                <li>Permite últimos ajustes antes de pasar a producción</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="comandos">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-center">Comandos basicos de Git</h2>
+                        <ol>
+                            <li style="text-align: justify;"><strong>git add:</strong> Mueve los cambios del directorio de trabajo al área del entorno de ensayo. Así puedes preparar una instantánea antes de confirmar en el historial oficial.</li>
+                            <li style="text-align: justify;"><strong>rama de git:</strong> Este comando es tu herramienta de administración de ramas de uso general. Permite crear entornos de desarrollo aislados en un solo repositorio.</li>
+                            <li style="text-align: justify;"><strong>Git Checkout:</strong> Además de extraer las confirmaciones y las revisiones de archivos antiguas, git checkout también sirve para navegar por las ramas existentes. Combinado con los comandos básicos de Git, es una forma de trabajar en una línea de desarrollo concreta.</li>
+                            <li style="text-align: justify;"><strong>git clean: </strong>Elimina los archivos sin seguimiento de tu directorio de trabajo. Es la contraparte lógica de git reset, que normalmente solo funciona en archivos con seguimiento.</li>
+                            <li style="text-align: justify;"><strong>git clone: </strong> Crea una copia de un repositorio de Git existente. La clonación es la forma más habitual de que los desarrolladores obtengan una copia de trabajo de un repositorio central.</li>
+                            <li style="text-align: justify;"><strong>git commit: </strong> Confirma la instantánea preparada en el historial del proyecto. En combinación con git add, define el flujo de trabajo básico de todos los usuarios de Git.</li>
+                            <li style="text-align: justify;"><strong>git init: </strong> Inicializa un nuevo repositorio de Git. Si quieres poner un proyecto bajo un control de revisiones, este es el primer comando que debes aprender.</li>
+                            <li style="text-align: justify;"><strong>git log: </strong> Permite explorar las revisiones anteriores de un proyecto. Proporciona varias opciones de formato para mostrar las instantáneas confirmadas.</li>
+                            <li style="text-align: justify;"><strong>git pull: </strong>Este comando es la versión automatizada de git fetch. Descarga una rama de un repositorio remoto e inmediatamente la fusiona en la rama actual. Este es el equivalente en Git de svn update.</li>
+                            <li style="text-align: justify;"><strong>git push</strong>Enviar (push) es lo opuesto a recuperar (fetch), con algunas salvedades. Permite mover una o varias ramas a otro repositorio, lo que es una buena forma de publicar contribuciones. Es como svn commit, pero envía una serie de confirmaciones en lugar de un solo conjunto de cambios.</li>
+                            <li style="text-align: justify;"><strong>git reset:</strong>Deshace los cambios en los archivos del directorio de trabajo. El restablecimiento permite limpiar o eliminar por completo los cambios que no se han enviado a un repositorio público.</li>
+                            <li style="text-align: justify;"><strong>git revert: </strong>Permite deshacer una instantánea confirmada. Si descubres una confirmación errónea, revertirla es una forma fácil y segura de eliminarla por completo del código base.</li>
+                            <li style="text-align: justify;"><strong>git status</strong>Muestra el estado del directorio en el que estás trabajando y la instantánea preparada. Lo mejor es que lo ejecutes junto con git add y git commit para ver exactamente qué se va a incluir en la próxima instantánea.</li>
+                            <li style="text-align: justify;"><strong>git remote</strong>Es un comando útil para administrar conexiones remotas. En lugar de pasar la URL completa a los comandos fetch, pull y push, permite usar un atajo más significativo.</li>
+                            <li style="text-align: justify;"><strong>git rebase:</strong> Un cambio de base con git rebase permite mover las ramas, lo que ayuda a evitar confirmaciones de fusión innecesarias. El historial lineal resultante suele ser mucho más fácil de entender y explorar.</li>
+                            <li style="text-align: justify;"><strong>git rebase -i: </strong>La marca -i se usa para iniciar una sesión de cambio de base interactivo. Esto ofrece todas las ventajas de un cambio de base normal, pero te da la oportunidad de añadir, editar o eliminar confirmaciones sobre la marcha.</li>
+                            <li style="text-align: justify;"><strong>Git merge: </strong>Es una forma eficaz de integrar los cambios de ramas divergentes. Después de bifurcar el historial del proyecto con git branch, git merge permite unirlo de nuevo.</li>
+                            <li style="text-align: justify;"><strong>git fetch:</strong>Con este comando, se descarga una rama de otro repositorio junto con todas sus confirmaciones y archivos asociados. Sin embargo, no intenta integrar nada en el repositorio local. Esto te permite inspeccionar los cambios antes de fusionarlos en tu proyecto.</li>
+                            <li style="text-align: justify;"><strong>git config: </strong>Este comando va bien para establecer las opciones de configuración para instalar Git. Normalmente, solo es necesario usarlo inmediatamente después de instalar Git en un nuevo equipo de desarrollo.</li>
+                            <li style="text-align: justify;"><strong>git commit --amend: </strong>Pasar la marca --amend a git commit permite modificar la confirmación más reciente. Es muy práctico si olvidas preparar un archivo u omites información importante en el mensaje de confirmación.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Samuel Lemos 2024</p></div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
